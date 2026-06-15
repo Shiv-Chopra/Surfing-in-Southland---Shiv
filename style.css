@@ -1,11 +1,16 @@
-
-
+body {
+    background-color: #F7F7F7;
+}
 .parent {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 1fr);
     gap: 8px;
     background-color: rgb(55, 55, 102);
+}
+
+.parent > div {
+    background-color: #F7F7F7;
 }
     
 .div1 {
