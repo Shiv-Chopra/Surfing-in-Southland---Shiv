@@ -1,12 +1,21 @@
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: #F7F7F7;
+    color: #0D2B45;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
 }
-.parent {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    gap: 8px;
-    background-color: rgb(55, 55, 102);
+
+header {
+    background: linear-gradient(to right, #0D2B45, #1E6D86);
+    color: #FFFFFF;
+    text-align: center;
+    padding: 60px 20px;
 }
 
 .parent > div {
@@ -46,17 +55,5 @@ body {
 .div8 {
     grid-column: span 4 / span 4;
 }
-        
+    
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background-color: #F7F7F7;
-    color: #0D2B45;
-    font-family: 'Open Sans', sans-serif;
-    line-height: 1.6;
-}
