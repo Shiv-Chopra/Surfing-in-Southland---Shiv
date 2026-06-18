@@ -1,22 +1,15 @@
- {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+root{ 
+    --navy:#0D2B45; --ocean:#1E6D86; --seafoam:#70B7C3; --sand:#E6C99A; --light:#F7F7F7; --grey:#EAEAEA;
+ }
 
-body {
-    background-color: #F7F7F7;
-    color: #0D2B45;
-    font-family: 'Open Sans', sans-serif;
-    line-height: 1.6;
-}
 
-header {
-    background: linear-gradient(to right, #0D2B45, #1E6D86);
-    color: #FFFFFF;
-    text-align: center;
-    padding: 60px 20px;
-}
+{ 
+    margin:0; padding:0; box-sizing:border-box;
+ }
+
+ body{ 
+    background:var(--light); color:var(--navy); font-family:'Open Sans', sans-serif; line-height:1.7;
+ }
 
 .parent > div {
     background-color: #F7F7F7;
