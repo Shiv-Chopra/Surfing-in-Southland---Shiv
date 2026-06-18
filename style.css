@@ -1,4 +1,4 @@
-root{ 
+root { 
     --navy:#0D2B45; --ocean:#1E6D86; --seafoam:#70B7C3; --sand:#E6C99A; --light:#F7F7F7; --grey:#EAEAEA;
  }
 
@@ -7,8 +7,29 @@ root{
     margin:0; padding:0; box-sizing:border-box;
  }
 
- body{ 
+ body { 
     background:var(--light); color:var(--navy); font-family:'Open Sans', sans-serif; line-height:1.7;
+ }
+
+header{ 
+    background:linear-gradient( rgba(13,43,69,0.8), rgba(13,43,69,0.8) ); 
+    color:white; text-align:center; padding:70px 20px;
+ }
+
+ h1{ 
+    font-family:'Montserrat', sans-serif; font-size:4rem; letter-spacing:4px; margin-bottom:10px;
+ }
+
+p{ 
+    color:var(--seafoam); font-size:1.3rem;
+ }
+
+nav{ 
+    background:white; padding:18px; text-align:center; 
+    box-shadow:0 2px 12px rgba(0,0,0,0.08); 
+    position:sticky; 
+    top:0; 
+    z-index:100;
  }
 
 .parent > div {
