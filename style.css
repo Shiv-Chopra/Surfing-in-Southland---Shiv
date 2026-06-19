@@ -13,24 +13,61 @@ root {
 
 header{ 
     background:linear-gradient( rgba(13,43,69,0.8), rgba(13,43,69,0.8) ); 
-    color:white; text-align:center; padding:70px 20px;
+    color:white; 
+    text-align:center; 
+    padding:70px 20px;
  }
 
  h1{ 
-    font-family:'Montserrat', sans-serif; font-size:4rem; letter-spacing:4px; margin-bottom:10px;
+    font-family:'Montserrat', sans-serif; 
+    font-size:4rem; 
+    letter-spacing:4px; 
+    margin-bottom:10px;
  }
 
 p{ 
-    color:var(--seafoam); font-size:1.3rem;
+    color:var(--seafoam); 
+    font-size:1.3rem;
  }
 
 nav{ 
-    background:white; padding:18px; text-align:center; 
+    background:white; 
+    padding:18px; 
+    text-align:center; 
     box-shadow:0 2px 12px rgba(0,0,0,0.08); 
     position:sticky; 
     top:0; 
     z-index:100;
+    
  }
+
+ nav a { 
+    text-decoration:none; color:var(--navy); margin:0 18px; font-weight:600; transition:0.3s;
+ }
+
+ nav a:hover{ 
+    color:var(--ocean); 
+}
+
+.hero{ 
+    width:100%; height:550px; object-fit:cover; display:block;
+ }
+
+ main{ 
+    max-width:1200px; margin:auto; padding:60px 25px;
+ }
+
+section{ 
+    margin-bottom:70px; 
+}
+
+h2{ font-family:'Montserrat', sans-serif;
+    color:var(--ocean); 
+    font-size:2rem; 
+    margin-bottom:20px; 
+    border-left:6px solid var(--seafoam); 
+    padding-left:15px;
+}
 
 .parent > div {
     background-color: #F7F7F7;
