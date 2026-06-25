@@ -28,7 +28,7 @@ p {
  }
 
 nav { 
-    background:white; 
+    background:#EAEAEA; 
     padding:18px; 
     text-align:center; 
     box-shadow:0 2px 12px rgba(0,0,0,0.08); 
@@ -39,7 +39,7 @@ nav {
  }
 
  nav a { 
-    text-decoration:none; color:var(--navy); margin:0 18px; font-weight:600; transition:0.3s;
+    text-decoration:none; color:#70B7C3; margin:0 18px; font-weight:600;
  }
 
  nav a:hover { 
