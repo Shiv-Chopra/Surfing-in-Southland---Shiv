@@ -15,6 +15,8 @@ header {
     padding:70px 20px;
  }
 
+
+ /*This is styling my Headings*/
  h1 { 
     font-family:'Montserrat', sans-serif; 
     font-size:4rem; 
@@ -66,6 +68,8 @@ h2 {
     border-left:6px solid var(--seafoam); 
     padding-left:15px;
 }
+
+
 
 .div3{ 
     width:90%; 
